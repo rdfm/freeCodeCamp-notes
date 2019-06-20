@@ -2,9 +2,9 @@ Folder: JS_algorithms_data-structures
 
 01-basic_JS.md
 02-ES6.md
-03-regular_expressions
-04-debugging
-05-basic_data_structures
+03-regular_expressions.md
+04-debugging.md
+05-basic_data_structures.md
 
 Folder: 06-basic_algorithm_scripting
     01-intro.md
@@ -29,7 +29,7 @@ Folder: 06-basic_algorithm_scripting
 
 Folder: 09-intermediate_algorithm_scripting
 
-Folder: 10-JS_algorithms_data-PROJECTS
+Folder: 10-JS_algorithms_data-structures-PROJECTS
 
 
 
