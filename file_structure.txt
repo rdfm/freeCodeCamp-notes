@@ -1,0 +1,7 @@
+Folder: JS_algorithms_data-structures
+    Folder: basic_JS
+    Folder: ES6
+    Folder: regular_expressions
+    Folder: debugging
+    Folder: basic_data_structures
+        
