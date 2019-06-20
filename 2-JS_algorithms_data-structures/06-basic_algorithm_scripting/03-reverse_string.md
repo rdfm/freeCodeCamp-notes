@@ -14,9 +14,9 @@ function reverseString(str) {
 reverseString("hello");
 ```
 
-```javascript
 Chaining the three methods together:
 
+```javascript
 function reverseString(str) {
     return str.split("").reverse().join("");
 }
@@ -63,34 +63,73 @@ reverseString("hello");
 
 ## 1. for loop
 
-```javascript
+- can be a decrementing or incrementing loop
 
+```javascript
+let reverse = (str) => {
+  let reversed = "";
+  for (var i = str.length - 1; i >= 0; i--){
+    reversed += str[i];
+  }
+  return reversed;
+}
 ```
 
-```javascript
+### ES6: for...of
 
+```javascript
+let reverse = (str) => {
+    let reversed = "";
+        for(let char of str){
+        console.log(reversed);
+        reversed = char + reversed;
+    };
+    return reversed;
+}
 ```
 
 ## 2. reverse() method for arrays
 
 ```javascript
-
+function reverse(str){
+  return str.split("").reverse().join("");
+}
 ```
 
 ## 3. spread syntax (ES6) + reverse() method for arrays
 
-```javascript
+**...** (spread operator)
 
+```javascript
+function reverse(str){
+  return [...str].reverse().join('');
+}
 ```
 
 ## 4. reduce() method for arrays
 
 ```javascript
-
+function reverse(str){
+  return str.split("").reduce((rev, char)=> char + rev, '');
+}
 ```
 
 ## 5. recursion
 
 ```javascript
+function reverse(str){
+ if(str === ""){
+  return str
+ }else{
+  return reverse(str.substr(1)) + str[0]
+ }
+}
+```
 
+Refactor (use ternary operator):
+
+```javascript
+function reverse(str){
+ return str ? reverse(str.substr(1)) + str[0] : str
+}
 ```
