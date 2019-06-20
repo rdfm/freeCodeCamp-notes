@@ -1,7 +1,36 @@
 Folder: JS_algorithms_data-structures
-    Folder: basic_JS
-    Folder: ES6
-    Folder: regular_expressions
-    Folder: debugging
-    Folder: basic_data_structures
+
+01-basic_JS.md
+02-ES6.md
+03-regular_expressions
+04-debugging
+05-basic_data_structures
+
+Folder: 06-basic_algorithm_scripting
+    01-intro.md
+    02-celsius_to_fahrenheit.md
+    03-reverse_string.md
+    04-factorialize_number.md
+    05-longest_word_in_string.md
+    06-largest_number_in_array.md
+    07-confirm_ending.md
+    08-repeat_string.md
+    09-truncate_string.md
+    10-finders_keepers.md
+    11-title_case_sentence.md
+    12-slice_and_splice.md
+    13-falsy_bouncer.md
+    14-where_do_i_belong.md
+    15-mutations.md
+    16-chunky_monkey.md
+
+07-object_oriented_programming.md
+08-functional_programming.md
+
+Folder: 09-intermediate_algorithm_scripting
+
+Folder: 10-JS_algorithms_data-PROJECTS
+
+
+
         
